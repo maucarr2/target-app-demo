@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_06_213710) do
 
   create_table "topics", force: :cascade do |t|
     t.string "title"
-    t.text "body"
+    t.text "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
